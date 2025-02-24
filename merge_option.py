@@ -80,10 +80,6 @@ def run_merge_window():
     btn_merge = ctk.CTkButton(app, text="Merge Selected", command=merge_files)
     btn_merge.pack(pady=5)
 
-    btn_exit = ctk.CTkButton(app, text="Back to Main", command=lambda: [app.destroy(), run_main()])
-    btn_exit.pack(pady=20)
 
     app.mainloop()
 
-def run_main():
-    import main
