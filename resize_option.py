@@ -37,7 +37,6 @@ def run_resize_window():
         for page in reader.pages:
             page.compress_content_streams()
             writer.add_page(page)
-        writer.add_metadata(reader.metadata)
 
         save_path=filedialog.asksaveasfilename(defaultextension=".pdf", filetypes=[("PDF files", "*.pdf")])
         if save_path:
