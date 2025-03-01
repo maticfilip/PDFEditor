@@ -12,25 +12,7 @@ A simple and user-friendly PDF editor built with **Python** and **CustomTkinter*
 ### Prerequisites
 Ensure you have Python 3.8+ installed.
 
-### Step 1: Clone the Repository
-```sh
-git clone https://github.com/your-username/pdf-editor.git
-cd pdf-editor
-```
 
-### Step 2: Install Dependencies
-```sh
-pip install -r requirements.txt
-```
-
-## Usage
-Run the application using:
-```sh
-python main.py
-```
-
-## Screenshots
-![App Screenshot](screenshot.png)
 
 ## Future Improvements
 - 🔄 Add OCR support for text extraction.
@@ -40,6 +22,4 @@ python main.py
 ## Contributing
 Feel free to fork this repository and submit pull requests!
 
-## License
-MIT License. See [LICENSE](LICENSE) for details.
 
